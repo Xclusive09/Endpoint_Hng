@@ -19,8 +19,8 @@ app.get('/api', (req, res) => {
         current_day : currentDay,
         utc_time : utcTime,
         track : track,
-        github_file_url : '',
-        github_repo_url : '',
+        github_file_url : 'https://github.com/Xclusive09/Endpoint_Hng/blob/main/index.js',
+        github_repo_url : 'https://github.com/Xclusive09/Endpoint_Hng',
         status_code : 200,
     }
 
